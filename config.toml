@@ -1,0 +1,29 @@
+baseURL = "https://opueco.github.com/"
+title = "OPUECO"
+copyright = "Copyright © 2018, OPUECO"
+languageCode = "en-US"
+theme = "indigo"
+paginate = 3
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[params]
+  Author = "Kenji Sato"
+  Description = "Description of website for head meta tag"
+  Subtitle = "Example Website"
+  Avatar = "images/site-logo.svg"
+  Biography = "A short description, a few sentences describing the author. Set the 'ShowBio' parameter to false to hide this."
+  ShowBio = true
+  PermalinkText = "🔗"
+
+  # Contact/social-network identifiers for social icons
+  EmailAddress = "email.address@example.com"
+
+  # These are parameters used for indieweb identity. You should set these along
+  # with the above email/social network parameters.
+  [params.indieWeb]
+    EmailAddress = "email.address@example.com"
+    Country = "Japan"
+    City = "Osaka"
+    
+    
