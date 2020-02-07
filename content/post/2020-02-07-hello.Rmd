@@ -1,0 +1,26 @@
+---
+title: こんにちは
+author: kenjisato
+date: '2020-02-07'
+categories:
+  - macroeconomics
+tags:
+  - R
+draft: yes
+---
+
+## イントロ
+
+- R
+- Hugo
+- GitHub
+- Netlify
+
+## 結論
+
+```{r}
+x <- 1:100
+sum(x)
+```
+
+
